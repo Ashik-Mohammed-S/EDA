@@ -1,0 +1,35 @@
+{
+  "source_repository": "izharul-haque/Bank-Telemarketing-Campaign-Case",
+  "commit": "ba8894fdacef08528847a91790b3e67002e3ca46",
+  "license": null,
+  "files": [
+    {
+      "filename": "bank_marketing_updated_v1.csv",
+      "url": "https://raw.githubusercontent.com/izharul-haque/Bank-Telemarketing-Campaign-Case/ba8894fdacef08528847a91790b3e67002e3ca46/bank_marketing_updated_v1.csv",
+      "sha256": "378adce3ff0225671d7da76d18fcfffb88db64333d56c424c4d799d4e5e4aa29",
+      "bytes": 5334391,
+      "rows": 45211,
+      "columns": [
+        "customerid",
+        "age",
+        "salary",
+        "balance",
+        "marital",
+        "jobedu",
+        "targeted",
+        "default",
+        "housing",
+        "loan",
+        "contact",
+        "day",
+        "month",
+        "duration",
+        "campaign",
+        "pdays",
+        "previous",
+        "poutcome",
+        "response"
+      ]
+    }
+  ]
+}

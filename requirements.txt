@@ -1,0 +1,8 @@
+# Stable releases verified from PyPI on 2026-11-01.
+ipykernel==7.4.0
+jupyterlab==4.6.5
+matplotlib==3.11.2
+nbformat==5.11.1
+numpy==2.5.4
+pandas==3.1.0
+seaborn==0.13.2
