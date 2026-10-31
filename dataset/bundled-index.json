@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "files": {
+    "bank_marketing_updated_v1.csv": {
+      "sha256": "378adce3ff0225671d7da76d18fcfffb88db64333d56c424c4d799d4e5e4aa29",
+      "uncompressed_bytes": 5334391,
+      "storage": "raw",
+      "path": "bank_marketing_updated_v1.csv"
+    }
+  }
+}
