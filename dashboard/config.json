@@ -1,0 +1,9 @@
+{
+  "default": "bank",
+  "datasets": [
+    {
+      "id": "bank",
+      "title": "Bank campaign"
+    }
+  ]
+}

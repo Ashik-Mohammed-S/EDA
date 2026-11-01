@@ -1,0 +1,162 @@
+[
+  {
+    "selected": [
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "n": 45181,
+    "positive": 5287,
+    "numeric": {
+      "age": {
+        "count": 45161,
+        "mean": 40.93576315847745
+      },
+      "salary": {
+        "count": 45181,
+        "mean": 57005.046369048934
+      }
+    }
+  },
+  {
+    "selected": [
+      0,
+      0,
+      0,
+      2
+    ],
+    "n": 2,
+    "positive": 1,
+    "numeric": {
+      "age": {
+        "count": 0,
+        "mean": null
+      },
+      "salary": {
+        "count": 2,
+        "mean": 37500.0
+      }
+    }
+  },
+  {
+    "selected": [
+      5,
+      1,
+      2,
+      12
+    ],
+    "n": 4,
+    "positive": 0,
+    "numeric": {
+      "age": {
+        "count": 4,
+        "mean": 28.0
+      },
+      "salary": {
+        "count": 4,
+        "mean": 37000.0
+      }
+    }
+  },
+  {
+    "selected": [
+      999,
+      -1,
+      -1,
+      -1
+    ],
+    "n": 0,
+    "positive": 0,
+    "numeric": {
+      "age": {
+        "count": 0,
+        "mean": null
+      },
+      "salary": {
+        "count": 0,
+        "mean": null
+      }
+    }
+  },
+  {
+    "selected": [
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    "n": 20,
+    "positive": 2,
+    "numeric": {
+      "age": {
+        "count": 0,
+        "mean": null
+      },
+      "salary": {
+        "count": 20,
+        "mean": 57450.0
+      }
+    }
+  },
+  {
+    "selected": [
+      -1,
+      0,
+      -1,
+      -1
+    ],
+    "n": 20069,
+    "positive": 3353,
+    "numeric": {
+      "age": {
+        "count": 20062,
+        "mean": 43.138321204266774
+      },
+      "salary": {
+        "count": 20069,
+        "mean": 58762.86810503762
+      }
+    }
+  },
+  {
+    "selected": [
+      -1,
+      -1,
+      0,
+      -1
+    ],
+    "n": 29267,
+    "positive": 4367,
+    "numeric": {
+      "age": {
+        "count": 29255,
+        "mean": 40.400478550675096
+      },
+      "salary": {
+        "count": 29267,
+        "mean": 59664.09266409266
+      }
+    }
+  },
+  {
+    "selected": [
+      -1,
+      -1,
+      -1,
+      0
+    ],
+    "n": 50,
+    "positive": 6,
+    "numeric": {
+      "age": {
+        "count": 50,
+        "mean": 38.6
+      },
+      "salary": {
+        "count": 50,
+        "mean": 56160.0
+      }
+    }
+  }
+]

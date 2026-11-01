@@ -1,5 +1,12 @@
 # Bank Campaign Response EDA
 
+## Expanded EDA and interactive dashboard
+
+[Open Analytics Lens](https://ashik-analytics-lens.swoonysnipe19.chatgpt.site) · [Dashboard and method guide](DASHBOARD.md) · [Current findings](analysis/EDA_FINDINGS.md)
+
+The expanded workflow covers **19 source columns and 22 analytical variables over 45,181 valid-target records**. It restores all-column source profiles, missing/unknown analysis, numeric target-group summaries, categorical rates with Wilson intervals, IQR flags, selected correlations and bivariate views. The dashboard adds four simultaneous cohort filters, a searchable variable explorer, relationship heatmaps, raw source audits and CSV exports. See the method guide for filtered versus full-source scope.
+
+
 [![Validation](https://github.com/Ashik-Mohammed-S/EDA/actions/workflows/validate.yml/badge.svg)](https://github.com/Ashik-Mohammed-S/EDA/actions/workflows/validate.yml)
 
 Understand subscription response rates across campaign segments while retaining the denominator behind every rate.
@@ -10,7 +17,7 @@ Independent public portfolio work; historical educational notebooks remain under
 
 45,211 source records; 45,181 records with valid yes/no response labels are analyzed.
 
-Summarize response rates by job, education, marital status, loan/housing status and previous outcome. Treat call duration as a post-contact diagnostic rather than an available pre-contact predictor.
+Profile every source field and analyze all numeric/categorical variables, with target-conditioned distributions, uncertainty, missingness and selected relationships. Treat call duration as a post-contact diagnostic rather than an available pre-contact predictor.
 
 ## Current full-data result
 

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "project": "bank",
+  "file": "bank.json.gz",
+  "sha256": "75396bc9dce6387c72663549696937415e3a5eec4c2dd0318368b1c499d6bed1",
+  "uncompressed_bytes": 624358,
+  "compressed_bytes": 143383,
+  "rows": 45181,
+  "positive": 5287,
+  "variables": 22,
+  "source_profile_columns": 19,
+  "strata": 342,
+  "unit": "one bank source record"
+}
