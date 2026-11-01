@@ -1,17 +1,23 @@
-# Target-conditioned descriptive EDA
+# Comprehensive exploratory analysis
 
-This is the primary analysis for EDA. Run `Bank+Marketing+Campaign_EDA-blank+notebook.ipynb` or:
+The primary notebook now covers source quality, all-variable profiles, numeric
+target-group summaries, categorical rates with denominators and Wilson intervals,
+IQR flags, selected bivariate relationships and correlations. No descriptive
+population sampling or blanket outlier deletion is performed.
 
-```sh
-python scripts/run_notebook.py --mode full
-```
+See [DASHBOARD.md](DASHBOARD.md) for the published/local interactive dashboard,
+field transformations, population units, scope boundaries and exact run commands.
+The [analysis snapshots](analysis/) are readable without rerunning the notebook;
+regenerated tables and charts are written to results/.
 
-The implementation is in scripts/analysis.py. It writes results/analysis.json,
-results/target_summary.csv and, where appropriate, results/overview.png.
-Targets, holdout design, assumptions, baselines and metrics are recorded in the
-report itself. Predictive preprocessing is fitted on training data only.
-Descriptive EDA reports rates and group denominators rather than claiming predictive accuracy.
-Time-series models use an untouched final chronological holdout with expanding-window CV.
+The bank analysis has 22 analytical variables and profiles all 19 source columns.
+The credit analysis has 137 current-applicant analytical variables and profiles
+all 122 current and 37 previous source columns. Previous history is aggregated
+before joining, and category-presence rates deduplicate applicant/category pairs.
 
-The original walkthrough is retained in historical/ for reference. Its old
-in-sample or exploratory numbers are not the primary model assessment.
+Missing and unknown groups remain visible. Numeric bin boundaries are fixed full-
+cohort quantiles. Correlations and raw-source/history audit views are full-cohort
+statistics, explicitly unaffected by dashboard cohort filters. Associations are
+descriptive, not causal effects, uplift, lending rules or predictive validation.
+
+The earlier educational walkthroughs remain under historical/ for reference.
